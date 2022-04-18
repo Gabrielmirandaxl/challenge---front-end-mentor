@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(https://fonts.google.com/specimen/Outfit);
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0d1a2d;
+}
+
+.container-externo{
+    width: 280px;
+    height: 480px;
+    background-color: #0c1729;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 265px;
+    height: 455px;
+    background-color: #15273f;
+    border-radius: 10px;
+}
+
+.card p {
+    color: #98adcc;
+    margin: 13px 0px 0px 15px;
+    font-size: 0.9em;
+    
+    
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44vh;
+}
+
+header{
+    margin: 0px 0px 0px 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.equilibrium{
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.show{
+    display: flex;
+    gap: 4.9em;
+}
+
+.show p{
+    display: flex;
+    align-items: center;
+    height: 3vh;
+    gap: 0.2em;
+    font-size: 0.7em;
+}
+
+.show .carteira{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    color: #03fcf4;
+}
+
+
+.show .clock{
+    color: #98adcc;
+}
+
+
+
+.space {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 4vh;
+}
+
+.space hr{
+    width: 80%;
+    border: #98adcc4f 1px groove ;
+}
+
+.avatar{
+    width: 25px;
+    height: 25px;
+    border: #ffffff 1px solid;
+    border-radius: 100%;
+
+}
+
+.creation p{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 0.8em;
+}
+
+span::first-line{
+    color: #ffffff;
+}
